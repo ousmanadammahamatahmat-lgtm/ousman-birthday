@@ -1,0 +1,17 @@
+PROJET : UNE VALISE DE BONHEUR — ANNIVERSAIRE D'OUSMAN
+Date de l'anniversaire : 03 janvier 2027
+Style : noir et or (choix esthétique par défaut)
+
+POUR L'UTILISER
+1. Décompressez le fichier ZIP.
+2. Ouvrez le dossier anniversaire_ousman.
+3. Double-cliquez sur index.html pour ouvrir le site dans un navigateur.
+4. Pour le publier, déposez le contenu du dossier sur Netlify Drop ou créez un dépôt GitHub Pages.
+
+FICHIERS
+- index.html : contenu du site
+- style.css : design responsive et animations
+- script.js : interactions, cadeaux et confettis
+- assets/portrait.jpg : photo fournie
+
+Le site ne nécessite aucune base de données. La police distante peut nécessiter une connexion Internet ; le site reste utilisable sans elle.

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090811">
+  <meta name="description" content="Une surprise d'anniversaire pour Ousman Adam Mahamat Ahmat, offerte par les étudiants de Sciences économiques L2, promotion 2026-2027.">
+  <title>Joyeux anniversaire Cher Délégué Ousman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+  <header class="topbar">
+    <span class="seal">✦</span>
+    <span>UNE SURPRISE EXCEPTIONNELLE</span>
+    <span class="top-date">03 JANVIER 2027</span>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow">À une personne qui compte</p>
+        <h1>Une journée spéciale.<br><span>Un homme exceptionnel.</span></h1>
+        <p class="intro">Il existe des personnes dont le courage, l'engagement et la présence laissent une empreinte positive. Aujourd'hui, une surprise leur est réservée…</p>
+        <div class="hero-actions">
+          <button class="button button-gold" id="startBtn">Découvrir ma surprise <span>→</span></button>
+          <span class="hint">Un petit clic… et beaucoup de bonheur.</span>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-halo"></div>
+        <div class="portrait-frame"><img src="assets/portrait.jpg" alt="Portrait d'Ousman Adam Mahamat Ahmat"></div>
+        <div class="portrait-tag"><span>★</span> Notre cher Délégué Titulaire</div>
+        <div class="orbit orbit-one">✦</div><div class="orbit orbit-two">✧</div>
+      </div>
+      <div class="scroll-note">FAITES DÉFILER POUR DÉCOUVRIR <span>↓</span></div>
+    </section>
+
+    <section class="suitcase-section section" id="valise">
+      <p class="eyebrow">Un cadeau rempli de belles choses</p>
+      <h2>La <span>valise du bonheur</span></h2>
+      <p class="section-lead">Chaque cadeau renferme un souhait sincère pour cette nouvelle année de ta vie.</p>
+      <div class="suitcase-scene">
+        <div class="glow"></div>
+        <div class="suitcase" id="suitcase" role="button" tabindex="0" aria-label="Ouvrir la valise du bonheur">
+          <div class="case-lid"><div class="lid-inner"><span>POUR TOI</span><b>✦</b><small>AVEC NOS MEILLEURS VŒUX</small></div></div>
+          <div class="case-body"><div class="case-lock"></div><div class="case-emblem">✧</div><div class="case-label">BONHEUR • RÉUSSITE • SANTÉ</div></div>
+          <div class="case-handle"></div>
+        </div>
+        <div class="floating-gift gift-a">🎁</div><div class="floating-gift gift-b">✨</div><div class="floating-gift gift-c">💛</div>
+      </div>
+      <button class="button button-gold" id="openCaseBtn">Ouvrir la valise du bonheur <span>✦</span></button>
+      <p class="small-note">Astuce : tu peux aussi cliquer directement sur la valise.</p>
+      <div class="gift-grid" id="giftGrid" aria-label="Cadeaux de bonheur">
+        <button class="gift-card" data-title="Le cadeau de la santé" data-message="Que Dieu t'accorde une santé solide, une longue vie et l'énergie nécessaire pour poursuivre tes rêves. Que la paix accompagne ton cœur et la sérénité tes journées."><span class="gift-icon">🌿</span><strong>La santé</strong><small>Une vie longue et paisible</small></button>
+        <button class="gift-card" data-title="Le cadeau de la réussite" data-message="Que tes efforts deviennent des résultats, que tes études ouvrent de grandes portes et que tes projets trouvent les moyens de se réaliser. Que chaque défi t'apprenne quelque chose et te rapproche de tes objectifs."><span class="gift-icon">🏆</span><strong>La réussite</strong><small>Des ambitions accomplies</small></button>
+        <button class="gift-card" data-title="Le cadeau de la prospérité" data-message="Que les opportunités se multiplient sur ton chemin, que ton travail porte ses fruits et que tu connaisses une prospérité construite avec patience, honnêteté et détermination."><span class="gift-icon">💰</span><strong>La prospérité</strong><small>Des portes qui s'ouvrent</small></button>
+        <button class="gift-card" data-title="Le cadeau de la sagesse" data-message="Que ton leadership grandisse avec la sagesse, l'écoute, la justice et l'humilité. Qu'au-delà du titre, tes actes continuent de rassembler et d'inspirer ceux qui avancent à tes côtés."><span class="gift-icon">👑</span><strong>La sagesse</strong><small>Un leadership inspirant</small></button>
+        <button class="gift-card" data-title="Le cadeau de l'amitié" data-message="Que tu sois entouré de personnes sincères, capables de célébrer tes victoires, de te soutenir dans les moments difficiles et de te dire la vérité avec bienveillance."><span class="gift-icon">🤝</span><strong>L'amitié</strong><small>Des liens sincères et durables</small></button>
+        <button class="gift-card" data-title="Le cadeau de la paix" data-message="Que ton esprit reste fort face aux épreuves, que ton cœur conserve l'espoir et que la paix de Dieu t'accompagne dans tes choix, tes projets et tes responsabilités."><span class="gift-icon">🕊️</span><strong>La paix</strong><small>La force de rester serein</small></button>
+      </div>
+      <div class="gift-message" id="giftMessage" aria-live="polite"><button class="close-message" id="closeMessage" aria-label="Fermer">×</button><span class="message-star">✦</span><h3 id="giftTitle"></h3><p id="giftText"></p></div>
+    </section>
+
+    <section class="letter-section section" id="message">
+      <div class="letter-card">
+        <p class="eyebrow">Un message de toute la promotion</p>
+        <h2>À notre cher <span>Délégué Titulaire</span></h2>
+        <div class="divider">✦ ✦ ✦</div>
+        <p class="letter-greeting">Cher Ousman Adam Mahamat Ahmat,</p>
+        <p>En ce <strong>3 janvier 2027</strong>, nous, étudiants en <strong>Sciences économiques, Licence 2 (L2), promotion 2026-2027</strong>, souhaitons te célébrer avec affection et reconnaissance.</p>
+        <p>Nous te souhaitons un très joyeux anniversaire ! Nous célébrons aujourd'hui non seulement une année de plus dans ta vie, mais aussi la personne que tu es : un homme courageux, audacieux, talentueux et déterminé, qui avance avec ambition et fait preuve d'engagement dans ses responsabilités.</p>
+        <p>Être délégué titulaire ne consiste pas simplement à porter un titre. C'est écouter, rassembler, défendre les intérêts de ses camarades et chercher des solutions malgré les difficultés. Nous te souhaitons de continuer à exercer ce rôle avec discernement, patience, justice et humilité.</p>
+        <p>Que cette nouvelle année t'apporte une santé solide, une paix profonde, une réussite académique remarquable et de belles opportunités. Que tes efforts portent leurs fruits, que tes projets progressent et que chaque obstacle devienne une occasion d'apprendre et de grandir.</p>
+        <p>Que Dieu protège tes pas, éclaire tes décisions, bénisse tes projets et t'entoure de personnes sincères. Qu'Il t'accorde une longue vie, une sagesse grandissante et la force de poursuivre tes rêves sans perdre les valeurs qui te rendent estimable.</p>
+        <blockquote>Les grands parcours se construisent par le courage, la constance et le bien que l'on apporte aux autres. Continue d'avancer : le meilleur reste à construire.</blockquote>
+        <p>Reçois nos vœux les plus chaleureux de bonheur, de prospérité, d'amitié et de réussite. Profite pleinement de cette journée, sois fier du chemin parcouru et garde confiance en celui qui reste à parcourir.</p>
+        <p class="final-wish">🎉 JOYEUX ANNIVERSAIRE, CHER DÉLÉGUÉ TITULAIRE ! 🎉</p>
+        <p class="signature">Avec toute notre considération,<br><strong>Les étudiants de Sciences économiques L2</strong><br>Promotion 2026-2027 — UNABA</p>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <div class="closing-stars">✦　✧　✦</div>
+      <h2>Que cette nouvelle année soit <span>exceptionnelle.</span></h2>
+      <p>Unis dans les études, solidaires dans les défis, ensemble pour la réussite.</p>
+      <button class="button button-outline" id="celebrateBtn">Célébrons encore ! 🎉</button>
+      <p class="footer-line">Conçu avec estime et affection par les étudiants de Sciences économiques L2 • 2026-2027</p>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="welcomeModal" aria-hidden="true">
+    <div class="welcome-modal">
+      <button class="close-modal" id="closeWelcome" aria-label="Fermer">×</button>
+      <div class="modal-icon">✦</div><p class="eyebrow">La surprise est prête</p>
+      <h2>Un bonheur de plus<br><span>pour une personne spéciale.</span></h2>
+      <p>La valise t'attend. Ouvre-la et découvre les vœux que nous avons préparés pour toi.</p>
+      <button class="button button-gold" id="modalOpenBtn">Ouvrir mon cadeau →</button>
+    </div>
+  </div>
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
